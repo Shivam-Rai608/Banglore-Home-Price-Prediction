@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Page Title</title>
+
+<style>
+body {
+	background-image: url("https://1storlandorealestate.com/wp-content/uploads/2017/11/What-Type-Of-Home-Are-You-Quiz-10-14-HERO1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(8px);
+
+     }
+</style>
+</head>
+<body>
+    <form action="/predict" method="POST"><br>
+        <h1 style="color:black;font-size:250%;text-align:center;font-family:purisa;text-shadow: 4px 4px 3px white, 2px 2px 1px white;">Predict Your House Price</h1>
+           <div style="text-align:center;line-height: 10px;">
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter Location..." name="crim"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter Area(Sq. Ft. ....)" name="zn"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter number of bathrooms..." name="indus"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter BHK value..." name="chas"><br><br>
+              
+               <button style="background-color: grey; height:40px; width:150px;font-size: medium;border-width: 3px; border-color:white; border-radius: 5px; color: black;" type = "submit" value="Submit"><b>Predict</b></button>
+           </div>
+    </form>
+</body>
+</html>
